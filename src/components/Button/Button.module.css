@@ -1,5 +1,5 @@
 .btn {
-  display: inline-flex;
+  display: flex;
   padding: 8px 17px;
   border: 1px solid #30352e;
   font-weight: 600;

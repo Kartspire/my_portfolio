@@ -31,15 +31,17 @@ export const Header: FC<IHeaderProps> = () => {
           <img src={avatar} alt="тут была моя аватарка" />
         </div>
         <p className={styles.name}>Кирилл Лимонов</p>
-        <Button href="https://github.com/Kartspire" icon="github">
-          github
-        </Button>
-        <Button href="https://t.me/Kartspire" icon="telegram">
-          telegram
-        </Button>
-        <Button icon="email" onClick={copiedEmail}>
-          Email
-        </Button>
+        <div className={styles.btnWrapper}>
+          <Button href="https://github.com/Kartspire" icon="github">
+            github
+          </Button>
+          <Button href="https://t.me/Kartspire" icon="telegram">
+            telegram
+          </Button>
+          <Button icon="email" onClick={copiedEmail}>
+            Email
+          </Button>
+        </div>
       </div>
     </header>
   );
