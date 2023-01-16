@@ -18,7 +18,6 @@ const reposSlice = createSlice({
     reposFetchingSucces(state, action: PayloadAction<IRepo[]>) {
       state.error = "";
       state.repos = action.payload;
-      console.log(state.repos);
     },
     reposFetchingError(state, action: PayloadAction<string>) {
       state.error = action.payload;

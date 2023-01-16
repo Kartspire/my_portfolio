@@ -1,4 +1,4 @@
-import React, { FC, useEffect } from "react";
+import React, { FC } from "react";
 import styles from "./Header.module.css";
 import avatar from "../../assets/img/avatar.png";
 import { Button } from "../Button";
@@ -12,7 +12,6 @@ export const Header: FC<IHeaderProps> = () => {
   const dispatch = useAppDispatch();
   const clipboardIsShown = useAppSelector((state) => state.clipboard.isShown);
   let timeout: any;
-  console.log(clipboardIsShown);
 
   function copiedEmail() {
     clearTimeout(timeout);

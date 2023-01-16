@@ -9,12 +9,6 @@ export const Clipboard: FC<IClipboardProps> = () => {
   const dispatch = useAppDispatch();
   const clipboardIsShown = useAppSelector((state) => state.clipboard.isShown);
 
-  // useEffect(() => {
-  //   return () => {
-  //     dispatch(changeClipboardVisible());
-  //   };
-  // }, []);
-
   return (
     <div
       className={`${styles.clipboard} ${clipboardIsShown && styles.clicked}`}

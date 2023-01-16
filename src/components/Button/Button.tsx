@@ -8,13 +8,11 @@ import ghPages from "../../assets/svg-icons/ghPages.svg";
 type IButtonProps = React.PropsWithChildren<{
   href?: string;
   icon?: string;
-  // value?: string;
   onClick?: React.MouseEventHandler;
 }>;
 
 export const Button: FC<IButtonProps> = React.memo(
   ({ href, icon, onClick, children }) => {
-    // console.log(icon);
     function getIcon(icon: string) {
       switch (icon) {
         case "github":
