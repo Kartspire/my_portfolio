@@ -1,0 +1,15 @@
+.mainWrapper {
+  min-height: 100vh;
+  padding-top: 20px;
+  background: #30352e;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 0 10px;
+}
+.reposList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}

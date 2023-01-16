@@ -1,0 +1,14 @@
+.btn {
+  display: inline-flex;
+  padding: 8px 17px;
+  border: 1px solid #30352e;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn::after {
+  content: "Скопировано в буфер обмена";
+  display: none;
+}
+.icon {
+  margin-right: 5px;
+}

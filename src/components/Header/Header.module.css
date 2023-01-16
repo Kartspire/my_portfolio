@@ -1,0 +1,20 @@
+.container {
+  max-width: 1120px;
+  padding: 0 10px;
+  /* height: 3000px; */
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  position: relative;
+  background: #b4b198;
+}
+.avatar {
+  padding-top: 10px;
+}
+.name {
+  font-size: 34px;
+  text-transform: uppercase;
+}
