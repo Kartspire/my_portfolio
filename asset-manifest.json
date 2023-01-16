@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.cd8ff4bd.css",
+    "main.js": "/my_portfolio/static/js/main.514fff0a.js",
+    "static/media/star-wars.jpg": "/my_portfolio/static/media/star-wars.78173b2505a28b4780d1.jpg",
+    "static/media/euklid.jpg": "/my_portfolio/static/media/euklid.45941982d746a82090e3.jpg",
+    "static/media/recipes.jpg": "/my_portfolio/static/media/recipes.598116cdd35f93e13797.jpg",
+    "static/media/rick-morty-characters.jpg": "/my_portfolio/static/media/rick-morty-characters.bfee3e912203aa3877a9.jpg",
+    "static/media/websocket_chat.jpg": "/my_portfolio/static/media/websocket_chat.8e8657fae995f237edc1.jpg",
+    "static/media/client-base.jpg": "/my_portfolio/static/media/client-base.913b5c14214dbe04405a.jpg",
+    "static/media/todo.jpg": "/my_portfolio/static/media/todo.ef012e8fd99f82534369.jpg",
+    "static/media/avatar.png": "/my_portfolio/static/media/avatar.427974d0b70ec50512a6.png",
+    "static/media/ghPages.svg": "/my_portfolio/static/media/ghPages.f43d0f1ffd539669edfac74ef20e8016.svg",
+    "static/media/telegram.svg": "/my_portfolio/static/media/telegram.89644122dab73d9516917276a2f87b83.svg",
+    "static/media/github.svg": "/my_portfolio/static/media/github.93ddb6bb6651cc9a38bc0992b97bdb0f.svg",
+    "index.html": "/my_portfolio/index.html",
+    "static/media/Email.svg": "/my_portfolio/static/media/Email.b5ec163996ca640e660d7df768597e19.svg",
+    "main.cd8ff4bd.css.map": "/my_portfolio/static/css/main.cd8ff4bd.css.map",
+    "main.514fff0a.js.map": "/my_portfolio/static/js/main.514fff0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8ff4bd.css",
+    "static/js/main.514fff0a.js"
+  ]
+}
