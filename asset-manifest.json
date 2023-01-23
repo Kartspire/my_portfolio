@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.da9c4d37.css",
-    "main.js": "/my_portfolio/static/js/main.c9bff7ee.js",
+    "main.css": "/my_portfolio/static/css/main.0ebd589a.css",
+    "main.js": "/my_portfolio/static/js/main.b20a42b1.js",
     "static/media/star-wars.jpg": "/my_portfolio/static/media/star-wars.78173b2505a28b4780d1.jpg",
     "static/media/euklid.jpg": "/my_portfolio/static/media/euklid.45941982d746a82090e3.jpg",
     "static/media/recipes.jpg": "/my_portfolio/static/media/recipes.598116cdd35f93e13797.jpg",
@@ -15,11 +15,11 @@
     "static/media/github.svg": "/my_portfolio/static/media/github.93ddb6bb6651cc9a38bc0992b97bdb0f.svg",
     "index.html": "/my_portfolio/index.html",
     "static/media/Email.svg": "/my_portfolio/static/media/Email.b5ec163996ca640e660d7df768597e19.svg",
-    "main.da9c4d37.css.map": "/my_portfolio/static/css/main.da9c4d37.css.map",
-    "main.c9bff7ee.js.map": "/my_portfolio/static/js/main.c9bff7ee.js.map"
+    "main.0ebd589a.css.map": "/my_portfolio/static/css/main.0ebd589a.css.map",
+    "main.b20a42b1.js.map": "/my_portfolio/static/js/main.b20a42b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.da9c4d37.css",
-    "static/js/main.c9bff7ee.js"
+    "static/css/main.0ebd589a.css",
+    "static/js/main.b20a42b1.js"
   ]
 }
