@@ -11,7 +11,7 @@
 .reposList {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: start;
 }
 
 @media screen and (max-width: 1100px) {

@@ -8,6 +8,7 @@ import rickMortyCharacters from "../../../assets/img/rick-morty-characters.jpg";
 import starWars from "../../../assets/img/star-wars.jpg";
 import todo from "../../../assets/img/todo.jpg";
 import wsChat from "../../../assets/img/websocket_chat.jpg";
+import defaultImage from "../../../assets/img/default.png";
 
 interface IProjectCardProps {
   name: string;
@@ -41,27 +42,35 @@ export const ProjectCard: FC<IProjectCardProps> = ({
       case "websocket_chat":
         return wsChat;
       default:
-        return;
+        return defaultImage;
     }
   }
 
   return (
-    <li className={styles.card}>
-      <div className={styles.imgWrapper}>
-        <img className={styles.img} src={getImage(name)} alt="" />
-      </div>
-      <div className={styles.reposContent}>
-        <p className={styles.name}>{name}</p>
-        <p className={styles.description}>{description}</p>
-        <div className={styles.buttonWrapper}>
-          {has_pages && (
-            <Button href={ghPagesLink} icon="ghPages">
-              page
+    <li className={styles.cardWrapper}>
+      <div className={styles.card}>
+        <div className={styles.imgWrapper}>
+          <img
+            className={description ? styles.img : styles.defaultImage}
+            src={getImage(name)}
+            alt=""
+          />
+        </div>
+        <div className={styles.reposContent}>
+          <p className={styles.name}>{name}</p>
+          <p className={styles.description}>
+            {description ? description : "Этот проект пока еще не готов"}
+          </p>
+          <div className={styles.buttonWrapper}>
+            {has_pages && (
+              <Button href={ghPagesLink} icon="ghPages">
+                page
+              </Button>
+            )}
+            <Button href={html_url} icon="github">
+              repository
             </Button>
-          )}
-          <Button href={html_url} icon="github">
-            repository
-          </Button>
+          </div>
         </div>
       </div>
     </li>
