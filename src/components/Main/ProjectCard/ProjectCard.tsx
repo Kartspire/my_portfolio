@@ -8,6 +8,7 @@ import rickMortyCharacters from "../../../assets/img/rick-morty-characters.jpg";
 import starWars from "../../../assets/img/star-wars.jpg";
 import todo from "../../../assets/img/todo.jpg";
 import wsChat from "../../../assets/img/websocket_chat.jpg";
+import authClient from "../../../assets/img/auth-clients.jpg";
 import defaultImage from "../../../assets/img/default.png";
 
 interface IProjectCardProps {
@@ -41,6 +42,8 @@ export const ProjectCard: FC<IProjectCardProps> = ({
         return todo;
       case "websocket_chat":
         return wsChat;
+      case "autho_clients-list":
+        return authClient;
       default:
         return defaultImage;
     }

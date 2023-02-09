@@ -18,11 +18,7 @@ export const Main: FC<IMainProps> = () => {
   }, []);
 
   const reposList = repos.map((el) => {
-    if (
-      el.name !== "reddit" &&
-      el.name !== "my_portfolio" &&
-      el.name !== "fool"
-    ) {
+    if (el.description) {
       return (
         <ProjectCard
           key={el.id}
