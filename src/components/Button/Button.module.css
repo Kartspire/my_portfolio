@@ -4,11 +4,25 @@
   border: 1px solid #30352e;
   font-weight: 600;
   cursor: pointer;
+  transition: all 0.1s ease-in;
 }
-.btn::after {
+/* .btn::after {
   content: "Скопировано в буфер обмена";
   display: none;
-}
-.icon {
+} */
+.btn svg {
   margin-right: 5px;
+  align-self: center;
+}
+.btn svg path {
+  stroke: #30352e;
+  transition: all 0.1s ease-in;
+}
+.btn:hover {
+  background: #30352e;
+  color: #b4b198;
+}
+.btn:hover svg path {
+  /* fill: #b4b198; */
+  stroke: #b4b198;
 }
