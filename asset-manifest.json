@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.0ebd589a.css",
-    "main.js": "/my_portfolio/static/js/main.eb435a03.js",
+    "main.css": "/my_portfolio/static/css/main.f19f25d7.css",
+    "main.js": "/my_portfolio/static/js/main.899ec5ca.js",
     "static/media/star-wars.jpg": "/my_portfolio/static/media/star-wars.78173b2505a28b4780d1.jpg",
     "static/media/euklid.jpg": "/my_portfolio/static/media/euklid.45941982d746a82090e3.jpg",
     "static/media/recipes.jpg": "/my_portfolio/static/media/recipes.598116cdd35f93e13797.jpg",
@@ -11,16 +11,12 @@
     "static/media/todo.jpg": "/my_portfolio/static/media/todo.ef012e8fd99f82534369.jpg",
     "static/media/auth-clients.jpg": "/my_portfolio/static/media/auth-clients.3879fc865c8d4ba2d103.jpg",
     "static/media/avatar.png": "/my_portfolio/static/media/avatar.427974d0b70ec50512a6.png",
-    "static/media/ghPages.svg": "/my_portfolio/static/media/ghPages.f43d0f1ffd539669edfac74ef20e8016.svg",
-    "static/media/telegram.svg": "/my_portfolio/static/media/telegram.89644122dab73d9516917276a2f87b83.svg",
-    "static/media/github.svg": "/my_portfolio/static/media/github.93ddb6bb6651cc9a38bc0992b97bdb0f.svg",
     "index.html": "/my_portfolio/index.html",
-    "static/media/Email.svg": "/my_portfolio/static/media/Email.b5ec163996ca640e660d7df768597e19.svg",
-    "main.0ebd589a.css.map": "/my_portfolio/static/css/main.0ebd589a.css.map",
-    "main.eb435a03.js.map": "/my_portfolio/static/js/main.eb435a03.js.map"
+    "main.f19f25d7.css.map": "/my_portfolio/static/css/main.f19f25d7.css.map",
+    "main.899ec5ca.js.map": "/my_portfolio/static/js/main.899ec5ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ebd589a.css",
-    "static/js/main.eb435a03.js"
+    "static/css/main.f19f25d7.css",
+    "static/js/main.899ec5ca.js"
   ]
 }
