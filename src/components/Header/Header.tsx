@@ -15,7 +15,7 @@ export const Header: FC<IHeaderProps> = () => {
 
   function copiedEmail() {
     clearTimeout(timeout);
-    navigator.clipboard.writeText("Limk94@mail.ru");
+    navigator.clipboard.writeText("Lim.kir97@gmail.com");
     dispatch(changeClipboardVisible(true));
     timeout = setTimeout(() => {
       dispatch(changeClipboardVisible(false));
