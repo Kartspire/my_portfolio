@@ -1,6 +1,6 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import styles from "./Header.module.css";
-import avatar from "../../assets/img/avatar.png";
+import avatar from "../../assets/avatar.png";
 import { Button } from "../Button";
 import { Clipboard } from "../Clipboard";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
